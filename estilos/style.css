@@ -20,14 +20,14 @@ header {
 }
 
 header img {
-   width: 120px;
+   width: 140px;
 
 }
 
 header ul{
     list-style: none;
     display: flex;
-
+    margin-top: 70px;
 }
 
 header li + li {
@@ -37,9 +37,10 @@ header li + li {
 header  a {
     color: white;
     text-decoration: none;
+
 }
 
 a:hover {
     color: blue;
-    transition: 1s;
+    transition: 0.5s;
 }
