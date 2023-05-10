@@ -14,13 +14,12 @@ body {
 header {
     display: flex;
     background-image: linear-gradient(to top, rgb(5, 5, 72) , rgb(6, 6, 179));
-
     align-items: center;
     justify-content: space-around;
 }
 
 header img {
-   width: 140px;
+   width: 110px;
 
 }
 
@@ -36,6 +35,7 @@ header li + li {
 
 header  a {
     color: white;
+    font-size: 1.1em;
     text-decoration: none;
 
 }
@@ -45,4 +45,27 @@ a:hover {
     transition: 0.5s;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 65vh;
+    background: url(../imagens/sala.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
 
+main h1 {
+    color: #183D6E;
+    font-size: 1.6em;
+
+
+}
+
+main h2 {
+    color: #183D6E;
+    font-size: 1.5em;
+    margin: 20px 0px 0px ;
+}
