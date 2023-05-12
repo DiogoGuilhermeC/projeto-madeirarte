@@ -53,9 +53,8 @@ main {
     text-align: center;
     height: 65vh;
     background: url(../imagens/sala.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    
     
 }
 
