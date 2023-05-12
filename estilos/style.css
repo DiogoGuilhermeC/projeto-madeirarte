@@ -9,6 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
 }
 
 header {
@@ -52,20 +53,20 @@ main {
     text-align: center;
     height: 65vh;
     background: url(../imagens/sala.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     
 }
 
 main h1 {
-    color: #183D6E;
+    color: black;
     font-size: 1.6em;
-
-
+    
 }
 
 main h2 {
-    color: #183D6E;
+    color: black;
     font-size: 1.5em;
     margin: 20px 0px 0px 0px ;
 }
@@ -73,16 +74,18 @@ main h2 {
 #portfolio {
     display: flex;
     padding: 30px 0px;
-    background-color: blue;
+    margin: 20px 0px;
+    background: url(../imagens/cozinha-modelada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
 }
 
-#destaque  {
-  display: none;
-}
+
 
 #quemsomos {
-    color: #183D6E;
-    background-color: white;
+    color: black;
+    font-weight: bold;
     padding: 0px 10px ;
 }
 
@@ -93,6 +96,14 @@ main h2 {
 #quemsomos h2,p{
     margin-bottom: 10px;
     
+}
+
+.texto {
+    background-color: transparent;
+    padding: 5px;
+    margin-bottom: 10px;
+ 
+
 }
 
 .texto img {
