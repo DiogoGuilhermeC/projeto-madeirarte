@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-   width: 110px;
+   width: 90px;
 
 }
 
@@ -67,5 +67,39 @@ main h1 {
 main h2 {
     color: #183D6E;
     font-size: 1.5em;
-    margin: 20px 0px 0px ;
+    margin: 20px 0px 0px 0px ;
+}
+
+#portfolio {
+    display: flex;
+    padding: 50px 0px;
+    background-color: blue;
+}
+
+#destaque  {
+  display: none;
+}
+
+#quemsomos {
+    color: #183D6E;
+    background-color: white;
+    padding: 0px 10px ;
+}
+
+#quemsomos h2 {
+    padding-left: 60px;
+}
+
+#quemsomos h2,p{
+    margin-bottom: 10px;
+    
+}
+
+.texto img {
+    padding-right: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
