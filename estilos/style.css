@@ -9,12 +9,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    background-color:#292d33 ;
 }
 
 header {
     display: flex;
-    background-image: linear-gradient(to top, rgb(5, 5, 72) , rgb(6, 6, 179));
+    background-color: white;
     align-items: center;
     justify-content: space-around;
 }
@@ -35,7 +35,7 @@ header li + li {
 }
 
 header  a {
-    color: white;
+    color: blue;
     font-size: 1.1em;
     text-decoration: none;
 
@@ -70,48 +70,18 @@ main h2 {
     margin: 20px 0px 0px 0px ;
 }
 
-#portfolio {
-    display: flex;
-    height: 700px;
-    padding: 30px 0px;
-    margin: 20px 0px;
-    background: url(../imagens/cozinha-modelada.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-#quemsomos {
-    color: black;
-    font-weight: bold;
-    padding: 0px 10px ;
-}
-
-#quemsomos h2 {
-    padding-left: 60px;
-}
-
-#quemsomos h2,p{
-    margin-bottom: 10px;
+.bloco1 {
+    background-color: rgb(7, 7, 109);
+    width: 360px;
+    padding: 100px 0px;
+    border-radius: 10px;
+    margin:  auto ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.texto {
-    font-size: 1em;
-    padding: 5px;
-    margin-bottom: 20px;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 25px;
-
-}
-
-.texto img {
-    padding-right: 10px;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
+.texto h1 {
+    padding-bottom: 20px;
 }
