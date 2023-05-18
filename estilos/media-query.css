@@ -9,29 +9,6 @@
 /* Tablet portrait >>>>>>>>>>>>>>>>*/
 @media (min-width:768px) {
 
-    header img {
-        width: 150px;
-    }
-
-    header a {
-        font-size: 1.5em;
-    }
-
-    main {
-        height: 50vh;
-    }
-
-    main h1 {
-        font-size: 2.2em;
-    }
-
-    main h2 {
-        font-size: 2em;
-    }
-
-
-
- 
 
 }
 
@@ -42,21 +19,42 @@
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:1200px) {
-    header a {
-        font-size: 1.2em;
+    /* cabeçalho */
+    
+    header {
+        height: 120px;
     }
 
-    main {
-        height: 95vh;
+    #logo img {
+        width: 100px;
+        height: 100px;
     }
 
-    main h1 {
-        font-size: 2.1em;
+    .flex {
+        padding: 0px 150px;
     }
+    
+     label {
+        display: none;
+     }
 
-    main h2 {
-        font-size: 2em;
-    }
+     nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 60px;
+     }
+    
+     nav ul li {
+        float: left;
+        border: 0;
+     }
 
-   
+     nav ul li a {
+        font-weight: bold;
+     }
+
+     nav ul li a:hover {
+        color: blue;
+     }
 }

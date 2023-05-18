@@ -1,87 +1,71 @@
 @charset "UTF-8";
 
-
 * {
-    margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#292d33 ;
+    font-size: 1em;
 }
 
-header {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    justify-content: space-around;
+
+/* cabeçalho */
+#inicio {
+    height: 60px;
 }
 
-header img {
-   width: 90px;
-
+#logo img {
+    width: 100px;
+    height: 100px;
 }
 
-header ul{
+#icheck {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.489);
+}
+
+nav ul {
     list-style: none;
-    display: flex;
-    margin-top: 70px;
+    background-color: lightgray;
+    height: 100vh;
+    position: fixed;
+    top: 48px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
 }
 
-header li + li {
-    margin-left: 15px;
+#icheck:checked ~ ul {
+    right: 0;
 }
 
-header  a {
-    color: blue;
-    font-size: 1.1em;
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li a {
     text-decoration: none;
-
+    color: black;
+    text-align: center;
 }
 
-a:hover {
-    color: blue;
-    transition: 0.5s;
-}
-
-main {
+.flex {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 65vh;
-    background: url(../imagens/sala.jpg);
-    background-size: cover;
-    
-    
-}
-
-main h1 {
-    color: black;
-    font-size: 1.6em;
-    
-}
-
-main h2 {
-    color: black;
-    font-size: 1.5em;
-    margin: 20px 0px 0px 0px ;
-}
-
-.bloco1 {
-    background-color: rgb(7, 7, 109);
-    width: 360px;
-    padding: 100px 0px;
-    border-radius: 10px;
-    margin:  auto ;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.texto h1 {
-    padding-bottom: 20px;
+    justify-content: space-between;
+    padding: 0px 10px;
 }
