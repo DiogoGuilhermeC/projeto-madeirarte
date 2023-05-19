@@ -9,6 +9,9 @@
 /* Tablet portrait >>>>>>>>>>>>>>>>*/
 @media (min-width:768px) {
 
+   main {
+      background-position: center center;
+   }
 
 }
 
@@ -57,4 +60,23 @@
      nav ul li a:hover {
         color: blue;
      }
+
+     main {
+      height: 100vh;
+      
+     }
+
+     .texto {
+      margin: auto;
+      
+     }
+
+     .texto h1 {
+      font-size: 2.2em;
+     }
+
+     .texto h2 {
+      font-size: 2.0em;
+     }
+   
 }

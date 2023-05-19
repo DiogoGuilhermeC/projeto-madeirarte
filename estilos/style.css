@@ -19,6 +19,7 @@ body {
 /* cabeçalho */
 #inicio {
     height: 60px;
+    padding-bottom: 50px ;
 }
 
 #logo img {
@@ -68,4 +69,40 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    background: url(../imagens/sala.jpg);
+    background-size: cover;
+    
+}
+
+.texto {
+    text-align: center;
+    color: #322ED9;
+    
+}
+
+.texto h1 {
+    padding-bottom: 20px;
+}
+
+#portfolio {
+    background-color: #4D3EF0;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.bloco {
+    height: 400px;
+    padding-top: 20px;
+    
 }
