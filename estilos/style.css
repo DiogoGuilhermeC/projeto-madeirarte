@@ -95,6 +95,7 @@ main {
 #port {
     background-color: #4D3EF0;
     color: white;
+    
 }
 
 #portfolio {
@@ -121,7 +122,7 @@ main {
 
 .caixa {
     text-align: center;
-    width: 250px;
+    width: 300px;
     height: 180px;
     margin: auto;
     
@@ -136,5 +137,9 @@ main {
 
 .martelo {
     display: none;
+}
+
+.caixa p {
+    font-size: 1em;
 }
 
