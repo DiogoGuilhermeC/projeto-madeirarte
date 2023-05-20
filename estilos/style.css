@@ -94,6 +94,7 @@ main {
 
 #port {
     background-color: #4D3EF0;
+    color: white;
 }
 
 #portfolio {
@@ -112,7 +113,7 @@ main {
 .bloco {
     width: 300px;
     height: 200px;
-    margin:  0px auto;
+    margin:  10px auto;
     padding: 10px 0px ;
     
     
