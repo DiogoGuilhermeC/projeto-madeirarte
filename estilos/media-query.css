@@ -14,13 +14,26 @@
    }
 
    #portfolio {
-      height: 50vh;
+      height: 100vh;
+      width: 730px;
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border: 1px solid black;
+
    }
 
-  
+   .bloco {
+      display: flex;
+      
+      justify-content: flex-end;
+      border: 1px solid red;
+      width: 200px;
+      height: 320px;
+   }
+   
+
+   
 
 }
 
@@ -88,4 +101,30 @@
       font-size: 2.0em;
      }
    
+     #portfolio {
+      height: 50vh;
+      min-width: 1300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border: 1px solid black;
+   }
+
+   .bloco {
+      border: 1px solid red;
+      width: 400px;
+      height: 250px;
+   }
+
+   .bloco h2 {
+      display: inline;
+      text-align: center;
+
+   }
+
+   .caixa {
+      border: 1px solid white;
+      width: 350px;
+      height: 250px;
+   }
 }
