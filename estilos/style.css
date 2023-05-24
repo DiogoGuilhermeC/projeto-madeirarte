@@ -72,6 +72,12 @@ nav ul li a {
     padding: 0px 10px;
 }
 
+.flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -152,3 +158,59 @@ main {
     font-size: 1em;
 }
 
+/* Conteudo */
+
+#projetos {
+    padding: 50px 0px;
+
+}
+
+#projetos h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.25em ;
+}
+
+#todos a:hover {
+    color: #322ED9;
+}
+
+/* cards */
+
+.card {
+    margin-top: 25px;
+    width: 290px;
+    height: 530px;
+    background-color: #4d3ef0;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 25px 25px 0px 0px;
+    width: 290px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+.card p {
+    text-align: left;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px 50px 30px;
+}
